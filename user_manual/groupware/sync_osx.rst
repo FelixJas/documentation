@@ -2,6 +2,14 @@
 Synchronizing with macOS
 ========================
 
+Prerequesits
+------------
+
+In case you setup 2-factor-authentification for your nextcloud account, you need to use an "app password" instead of your regular account password.
+This can be achieved under **(Personal) Settings** -> **Security** -> **Create new app password**.
+
+.. figure:: ./images/app_password.png
+
 Setup your Accounts
 -------------------
 
@@ -46,5 +54,4 @@ Troubleshooting
 - macOS does **not** support syncing CalDAV/CardDAV over non-encrypted ``http://``
   connections. Make sure you have ``https://`` enabled and configured on server- and
   client-side.
-
 - **Self-signed certificates** need to be properly set up in the macOS keychain.
